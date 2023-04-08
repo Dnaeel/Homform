@@ -4,6 +4,7 @@ const url = 'http://localhost:3000/users';
 
 const getFormValues = (event) => {
     event.preventDefault();
+    window.location = "file:///C:/Users/User/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/front1/GIT/form/form.html"
     const user = {
         name: form.name.value,
         second_name: form.second_name.value,
